@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_percision - get the percision from the format string
+ * get_precision - get the percision from the format string
  * @p: the format string
  * @params: the parameters struct
  * @ap: argument pointer
@@ -9,7 +9,7 @@
  * Return: new pointer
 */
 
-char *get_percision(char *p, params_t *params, va_list ap)
+char *get_precision(char *p, params_t *params, va_list ap)
 {
 	int d = 0;
 
